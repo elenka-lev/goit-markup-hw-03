@@ -4,9 +4,9 @@ body {
     background-color: #ffffff;
 }
 .container {
+    padding: 0 15px;
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
 }
 ul, li, p, h1, h2, h3 {
     margin: 0;
@@ -51,6 +51,7 @@ img {
 }
 .header-menu-item{
     list-style-type: none;
+    padding: 24px 0;
 }
 .header-menu-item:not(:last-child) {
     margin-right: 40px; 
@@ -187,6 +188,9 @@ img {
     justify-content: space-between;
     
 }
+.title-descr {
+    margin-bottom: 8px;
+}
 .feature-descr-link {
     list-style-type: none;
     display: block;
@@ -250,6 +254,9 @@ img {
 .title{
     margin-bottom: 72px;
 }
+.title-descr {
+    margin-bottom: 8px;
+}
 .portfolio-lists {
     display: flex;
     gap: 24px;
@@ -261,6 +268,7 @@ img {
 } */
 .portfolio-list {
     list-style-type: none;
+    border: 1px solid #e7e9fc;
 }
 .portfolio-item {
     padding: 32px 16px;
