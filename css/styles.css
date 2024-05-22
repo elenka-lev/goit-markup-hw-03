@@ -4,19 +4,22 @@ body {
     background-color: #ffffff;
 }
 .container {
-    max-width: 1128px;
+    max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 ul, li, p, h1, h2, h3 {
     margin: 0;
     padding: 0;
 }
-.wrap-menu {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
+img {
+    display: block;
 }
+
 /*header*/
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
 .container-menu {
     padding: 24px 0;
     display: flex;
@@ -24,6 +27,8 @@ ul, li, p, h1, h2, h3 {
 }
 .header-menu {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-logo {
     font-family: 'Raleway', sans-serif;
@@ -100,21 +105,24 @@ ul, li, p, h1, h2, h3 {
     padding: 188px 0;
 }
 .hero-title {
+    max-width: 496px;
+    margin: 0 auto;
     color: #ffffff;
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
+    
 }
 .hero-btn {
     display: block;
     margin: 0 auto;
-    margin-top: 18px;
+    margin-top: 48px;
     border: none;
     border-radius: 4px;
     padding: 16px 31px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     color:#ffffff;
     font-weight: 500;
@@ -164,7 +172,6 @@ ul, li, p, h1, h2, h3 {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
