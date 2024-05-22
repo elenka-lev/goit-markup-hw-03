@@ -55,6 +55,7 @@ img {
 }
 .header-menu-item{
     list-style-type: none;
+    display: block;
     padding: 24px 0;
 }
 .header-menu-item:not(:last-child) {
