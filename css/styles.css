@@ -189,7 +189,6 @@ img {
     width: calc((100%-24px*3)/4);
 } */
 .feature-descr {
-    margin-bottom: 8px;
     display: flex;
     justify-content: space-between;
     
@@ -235,7 +234,6 @@ img {
     padding: 32px 0
 }
 .title-team {
-    margin-bottom: 8px;
     text-align: center;
 }
 .wrap-team {
@@ -260,9 +258,7 @@ img {
 .title{
     margin-bottom: 72px;
 }
-.title-descr {
-    margin-bottom: 8px;
-}
+
 .portfolio-lists {
     display: flex;
     gap: 24px;
